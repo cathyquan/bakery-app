@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		64705B192977658A001F265A /* fakeData.json in Resources */ = {isa = PBXBuildFile; fileRef = 64705B182977658A001F265A /* fakeData.json */; };
 		64EC864029775EEB006D01A4 /* bakery_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64EC863F29775EEB006D01A4 /* bakery_appApp.swift */; };
 		64EC864229775EEB006D01A4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64EC864129775EEB006D01A4 /* ContentView.swift */; };
 		64EC864429775EED006D01A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64EC864329775EED006D01A4 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		64705B182977658A001F265A /* fakeData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fakeData.json; sourceTree = "<group>"; };
 		64EC863C29775EEB006D01A4 /* bakery_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bakery_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64EC863F29775EEB006D01A4 /* bakery_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bakery_appApp.swift; sourceTree = "<group>"; };
 		64EC864129775EEB006D01A4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,9 +73,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		64705B1729776576001F265A /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				64705B182977658A001F265A /* fakeData.json */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
 		64EC863329775EEB006D01A4 = {
 			isa = PBXGroup;
 			children = (
+				64705B1729776576001F265A /* resources */,
 				64EC863E29775EEB006D01A4 /* bakery_app */,
 				64EC864F29775EED006D01A4 /* bakery_appTests */,
 				64EC865929775EED006D01A4 /* bakery_appUITests */,
@@ -232,6 +243,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				64EC864729775EED006D01A4 /* Preview Assets.xcassets in Resources */,
+				64705B192977658A001F265A /* fakeData.json in Resources */,
 				64EC864429775EED006D01A4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
